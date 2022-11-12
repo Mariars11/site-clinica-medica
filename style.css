@@ -1,0 +1,137 @@
+/*Geral*/
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+#text_menu{
+    padding-left: 20px;
+}
+.menu {
+    width: 15%;
+    background-color: #00ADB5;
+    padding: 5px 5px 20px 0px;
+}
+
+#logo{
+    height: 100px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.header {
+    background-color: #FF5722;
+    min-height: 150px;
+}
+.content {
+    background-color: #EEEEEE;
+    min-height: 300px;
+    padding: 20px;
+}
+#logo_footer{
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.footer {
+    background-color: #303841;
+    min-height: 150px;
+}
+
+#text{
+   max-width: 500px;
+   font-size: 18px; 
+   text-align: justify;
+   text-indent: 25px;
+   margin: 2px auto;
+}
+/*horario*/
+#horario_text{
+    text-align: justify;
+    text-indent: 25px;
+    font-size: 17px;
+}
+#hour_text{
+    text-align: center;
+    font-size: 20px;
+}
+table thead th{
+    background-color: #383838;
+    color: white;
+}
+table tbody tr:hover td{
+    background-color: gray;
+    cursor: pointer;
+}
+table tbody tr:nth-child(even){
+    background-color: #FF5722;
+}
+table{
+    margin: 0 auto;
+    min-width: 500px;
+    text-align: center;
+    border: black;
+}
+/*contato*/
+fieldset{
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    background: lightgray;
+}
+h3 li{
+    margin-left: 15px;
+}
+.cont_inf{
+    margin-left: 30px;
+}
+
+#informacoes_foot{
+    padding-left: 40px;
+    color: white;
+    padding-bottom: 15px;
+}
+
+textarea{
+    margin: 5px;
+    max-width: max-content;
+    max-height: 150px;
+}
+label.mensagem{
+    min-width: 72px;
+    text-align: center;
+}
+.buttons{
+    margin: 0 auto;
+}
+div.row{
+    margin: 0 auto;
+}
+input{
+    margin: 3px;
+}
+input#nome{
+    margin-left: 15px;
+}
+input#email{
+    margin-left: 10px;
+}
+button#enviar{
+    background: rgba(100, 221, 100, 0.525);
+}
+button#limpar{
+    background: lightskyblue;
+}
+
